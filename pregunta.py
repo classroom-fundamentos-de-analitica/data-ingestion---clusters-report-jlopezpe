@@ -46,10 +46,10 @@ def ingest_data():
     df["Porcentaje de"] = df["Porcentaje de"].str.replace(",", ".").astype(float)
 
     df.columns = [
-            "cluster",
-            "cantidad_de_palabras_clave",
-            "porcentaje_de_palabras_clave",
-            "principales_palabras_clave"
+        "cluster",
+        "cantidad_de_palabras_clave",
+        "porcentaje_de_palabras_clave",
+        "principales_palabras_clave"
     ]
 
     #
